@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check Your City Weather</title>
+    <link rel="icon" href="https://rb.gy/cg27" type="image/x-icon" />
+    <link rel="stylesheet" href="./index.3a01df49.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+  </head>
+  <body>
+    <div class="searchBoxWrapper">
+      <h1>Weather App</h1>
+      <p>Search your country and city</p>
+      <p class="msg"></p>
+      <form id="form">
+        <label for="country">Country </label>
+        <input
+          type="text"
+          name="country"
+          id="country"
+          placeholder="(type your country's first two word Ex:'BD')"
+        />
+        <label for="city">City</label>
+        <input type="text" name="city" id="city" />
+        <button id="btn">Get Weather</button>
+      </form>
+    </div>
+
+    <div class="weather">
+      <h2 class="wCity">City</h2>
+      <hr />
+      <div class="icon">
+        <img class="wIcon" />
+        <p><span class="fLike">?</span></p>
+      </div>
+      <hr />
+      <p>Temperature: <span class="temp">..</span>°C</p>
+      <hr />
+      <p>Pressure: <span class="pres">..</span>kpa</p>
+      <hr />
+      <p>Humidity: <span class="humid">..</span></p>
+      <hr />
+    </div>
+    <script src="./index.0e014a4a.js" defer=""></script>
+  </body>
+</html>

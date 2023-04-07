@@ -1,0 +1,39 @@
+@import "https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Carter+One&family=Cherry+Swash:wght@400;700&family=Dancing+Script:wght@400;500;600;700&family=Dongle:wght@300;400;700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&family=Fjalla+One&family=Fredoka+One&family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;0,800;1,200;1,300;1,400;1,500;1,700;1,800&family=Lexend+Deca:wght@300;400;500;600;700;800;900&family=Lobster&family=Montserrat+Alternates:ital,wght@0,100;0,600;0,700;0,900;1,100;1,600;1,800;1,900&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,200;0,300;0,400;0,600;0,800;0,900;1,100;1,200;1,400;1,900&family=Righteous&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;1,700;1,900&family=Supermercado+One&display=swap";
+*, :before, :after {
+  box-sizing: border-box;
+  content: "";
+  clear: both;
+  margin: 0;
+  font-family: Righteous, cursive;
+}
+
+body {
+  text-align: center;
+  place-items: center;
+}
+
+h1, p, label, input, button {
+  margin-top: 1em;
+}
+
+input {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.searchBoxWrapper {
+  max-width: 800px;
+  text-align: center;
+  border: 5px solid #bdceba;
+  margin: 1em auto;
+  padding: 4em 0;
+}
+
+.weather {
+  max-width: 800px;
+  border: 5px solid #93bc8b;
+  margin: 10em auto;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */
